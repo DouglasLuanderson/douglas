@@ -1,0 +1,93 @@
+.monstro{
+
+	display: flex;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	position: absolute;
+	border-radius: 50%;
+	left: 40%;
+	top: 20%;
+	animation-name: dg;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes dg{
+	0%{background-color: blue; left: 0; top: 0;}
+	25%{background-color: green; left: 900px; top: 0; }
+	50%{background-color: pink;left:400px;top:400px;}
+	75%{left: 0px; top: -800px;}
+	100%{}
+
+}
+.monstro:hover{
+	background-color: blue;
+	
+}
+.olho1{
+	display: flex;
+	width: 90px;
+	height: 90px;
+	background-color: yellow ;
+	position: absolute;
+	border-radius: 50%;
+	left: 15%;
+	top: 20%;
+	transition: background-color 3s;
+
+
+}
+.olho1:hover{
+	background-color: green;
+
+	}
+.olho2{
+	display: flex;
+	width: 90px;
+	height: 90px;
+	background-color: yellow;
+	position: absolute;
+	border-radius: 50%;
+	left: 55%;
+	top: 20%;
+}
+.olho2:hover{
+	background-color: green;
+
+}
+.retina{
+	width: 40px;
+	height: 40px;
+	background-color: brown;
+	position: absolute;
+	border-radius: 50%;
+	left: 25%;
+	top: 25%;
+}
+.retina:hover{
+	background-color: yellow;
+}
+.boca{
+	display: flex;
+	width: 120px;
+	height: 60px;
+	background-color: white;
+	position: absolute;
+	border-radius: 15%;
+	left: 30%;
+	top: 60%;
+}
+.boca:hover{
+	background-color: gray;
+}
+.dente{
+	display: flex;
+	width: 120px;
+	height: 5px;
+	background-color: black;
+	position: absolute;
+	border-radius: 10%;
+	left: 30%;
+	top: 70%;
+}
